@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ee28ea19aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="w-vw">
+    <div class="container w-full flex justify-center">
+        <!-- mini remote thing -->
+        <div class="flex flex-col justify-center ml-20 mr-10 w-14 space-y-5">
+            <div class="flex flex-col justify-center items-center w-full h-1/2 backdrop-blur-md bg-white/30 border-8 rounded-full text-2xl space-y-5">
+                <i class="fa-regular fa-circle-play text-white bg-red-800 rounded-full"></i>
+                <i class="fa-solid fa-table-cells-large text-white"></i>
+                <i class="fa-regular fa-circle-play text-white"></i>
+                <i class="fa-solid fa-podcast text-white"></i>
+                <i class="fa-solid fa-headphones text-white"></i>
+                <i class="fa-solid fa-magnifying-glass text-white"></i>
+            </div>
+        </div>
+        <div class="flex flex-row w-full justify-center backdrop-blur-md bg-white/30 rounded-xl mr-10 my-10">
+            <div class="flex flex-row w-full justify-center"> 
+                
+                <!-- Sidebar -->
+                <div class="flex flex-col items-start w-1/3 h-full pl-10 border-r-2">
+                    
+                    <!-- header netfli -->
+                    <div class="text-rose-600 mt-5 flex justify-stat">
+                        <img src="./images/netflixlogo.svg" width="50%">
+                    </div>
+                    <!-- Browse -->
+                    <div class="flex flex-col items-start my-5">
+                        <span class="flex items-center justify-center text-xs">
+                            <i class="fa-solid fa-play flex justify-center items-center w-4 h-4 rounded-full bg-red-800 mr-4"></i><h3>Browse</h3>
+                        </span>
+                        <span class="flex items-center mt-5 text-xs">
+                            <i class="fa-regular fa-heart flex justify-center items-center w-4 h-4 rounded-full text-white mr-4"></i><h3>Wishlist</h3>
+                        </span>
+                        <span class="flex items-center mt-5 text-xs">
+                            <i class="fa-regular fa-calendar-minus flex justify-center items-center w-4 h-4 rounded-full text-white mr-4"></i><h3>Coming Soon</h3>
+                        </span>
+                    </div>
+                    <!-- New trailers -->
+                    <div class="flex flex-col w-full h-full items-start justify-center">
+                        <div class="flex items-center justify-center">
+                            <h2 class="text-white mr-4">New Trailers</h2><i class="fa-solid fa-fire text-orange-600"></i>
+                        </div>
+                        <div class="flex flex-col w-full mb-5 items-start h-full">
+                            <div class="sidebar mt-5 h-1/3 rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><h5 class="ml-5">Shadow and Base</h5> <i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 backdrop-blur-xl mr-4"></i></span></div>
+                            <div class="sidebar mt-5 h-1/3 rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><h5 class="ml-5">The Night Agent</h5> <i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 backdrop-blur-xl mr-4"></i></span> </div>
+                            <div class="sidebar mt-5 h-1/3 rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><h5 class="ml-5">The Witcher</h5><i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 backdrop-blur-xl mr-4"></i></span></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main contianer -->
+                <div class="flex flex-col w-full h-full p-5">
+                    <!-- top bar -->
+                    <div class="flex justify-between">
+                        <div class="flex">
+                            <!-- search bar -->
+                            <span class="space-x-5 text-white mr-10">
+                                <i class="fa-solid fa-less-than opacity-50"></i>
+                                <i class="fa-solid fa-greater-than"></i>
+                            </span>
+                            <div class="search space-x-5">
+                                <i class="fa-solid fa-microphone text-white ml-5"></i>
+                                <input type="text" class="search" placeholder="Search.." >
+                            </div>
+                            
+                        </div>
+                        <div class="flex space-x-5 w-full justify-end">    
+                            <span class="flex justify-center items-center">
+                                <i class="fa-regular fa-bell flex justify-center items-center w-8 h-8 rounded-full bg-white/30 text-white"></i>
+                            </span> 
+                            <span class="flex justify-center items-center rounded-full w-72 h-12 backdrop-blur-xl bg-white/30 space-x-5">
+                                <img src="images/profile.jpg" class="rounded-full w-1/7 h-3/4"><h4>Bryce C.</h4>
+                            </span>
+                        </div>
+                    </div> 
+                    <!-- peaky blinders -->
+                    <div class="flex w-full h-full items-stretch">
+                        <div class="flex w-full flex-col items-start justify-end rounded-xl h-full peaky text-white pl-5 pb-5">
+                            <span> 
+                                <button class="bg-red-800 w-20 h-10 rounded-xl">Watch</button>
+                                <button class="bg-slate-800 w-10 h-10 rounded-xl"><i class="fa-solid fa-plus"></i></button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-end justify-end h-full mt-2"><!-- popcorn mania -->
+                        <div class="flex flex-col w-full h-2/3">
+                            <div>
+                                <h3>Popcorn Mania</h3>
+                            </div>
+                            <div class="flex w-full h-full space-x-5">
+                                <span class="popcorn flex items-end justify-center w-full h-full rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><span class="flex flex-col pl-5"><h5>Brooklyn</h5> <p>Brooklyn R 2016</p></span><i class="fa-solid fa-ellipsis-vertical pr-3"></i></span></span>
+                                <span class="popcorn flex items-end justify-center w-full h-full rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><span class="flex flex-col pl-5"><h5>Ready Player One</h5> <p>2018 U/A 13+ 2h 20m</p></span><i class="fa-solid fa-ellipsis-vertical pr-3"></i></span></span>
+                                <span class="popcorn flex items-end justify-center w-full h-full rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><span class="flex flex-col pl-5"><h5>Money</h5> <p>2021 A 2h 20m</p></span><i class="fa-solid fa-ellipsis-vertical pr-3"></i></span></span>
+                                <span class="popcorn flex items-end justify-center w-full h-full rounded-xl"><span class="backdrop-blur w-full text-white flex justify-between items-center rounded-b-lg"><span class="flex flex-col pl-5"><h5>Ash vs. Evil Dead</h5> <p>2018 A 3 Seasons</p></span><i class="fa-solid fa-ellipsis-vertical pr-3"></i></span></span>
+                            </div>
+                        </div>
+                        <!-- continue watching -->
+                        <div class="flex flex-col w-full h-1/2 mt-5">
+                            <div>
+                                <h3>
+                                    Continue Watching
+                                </h3>
+                            </div> 
+                            <div class="flex items-end w-full h-full space-x-5">   
+                                <div class="continue flex flex-col justify-end items-center w-full h-full rounded-xl">
+                                    <span class="flex justify-center items-end">
+                                        <i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 text-white"></i>
+                                    </span>
+                                    <span class="flex flex-col justify-end pb-2">
+                                        <h5 class="text-white">Red Notice</h5>
+                                        <progress max="100" min="5" value="34">
+                                            
+                                        </progress>
+                                    </span>
+                                </div>
+                                <span class="continue flex flex-col justify-end items-center w-full h-full rounded-xl">
+                                    <span class="flex flex-col justify-center items-center"> 
+                                        <span>
+                                            <i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 text-white"></i>
+                                        </span>
+                                        <span class="flex flex-col justify-end pb-2">
+                                            <h5 class="text-white">Extraction</h5>
+                                            <progress max="100" min="5" value="34">
+                                                
+                                            </progress>
+                                        </span>
+                                    </span>
+                                </span>
+                                <span class="continue flex flex-col justify-end items-center w-full h-full rounded-xl">
+                                    <span class="flex flex-col justify-center items-center"> 
+                                        <span>
+                                            <i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 text-white"></i>
+                                        </span>
+                                        <span class="flex flex-col justify-end pb-2">
+                                            <h5 class="text-white">The Adam Project</h5>
+                                            <progress max="100" min="5" value="34">
+                                            </progress>
+                                        </span>
+                                    </span>
+                                </span>                                
+                                <span class="continue flex flex-col justify-end items-center w-full h-full rounded-xl">
+                                    <span class="flex flex-col justify-center items-center "> 
+                                        <span>
+                                            <i class="fa-solid fa-play flex justify-center items-center w-8 h-8 rounded-full bg-white/30 text-white"></i>
+                                        </span>
+                                        <span class="flex flex-col justify-end pb-2">
+                                            <h5 class="text-white">The Old Guard</h5>
+                                            <progress max="100" min="5" value="34">
+                                                
+                                            </progress>
+                                        </span>
+                                    </span>
+                                </span>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
