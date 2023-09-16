@@ -542,11 +542,6 @@ h2 {
     max-width: 1536px;
   }
 }
-.mx-40 {
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -557,13 +552,12 @@ h2 {
   margin-bottom: 1.25rem;
 }
 
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .ml-5 {
@@ -578,36 +572,20 @@ h2 {
   margin-right: 1rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
   display: flex;
+}
+
+.h-1\/2 {
+  height: 50%;
 }
 
 .h-1\/3 {
@@ -618,8 +596,20 @@ h2 {
   height: 2.5rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-12 {
+  height: 3rem;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
+}
+
+.h-3\/4 {
+  height: 75%;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .h-8 {
@@ -630,42 +620,6 @@ h2 {
   height: 100%;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -674,8 +628,20 @@ h2 {
   width: 2.5rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-20 {
   width: 5rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .w-8 {
@@ -684,66 +650,6 @@ h2 {
 
 .w-full {
   width: 100%;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-1\/5 {
-  width: 20%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-1\/6 {
-  width: 16.666667%;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .flex-row {
@@ -770,10 +676,6 @@ h2 {
   align-items: stretch;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -792,24 +694,6 @@ h2 {
   margin-left: calc(1.25rem * (1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * (1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * (1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * (1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * (1 - var(--tw-space-y-reverse)));
@@ -824,21 +708,9 @@ h2 {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-8 {
@@ -875,6 +747,10 @@ h2 {
   padding-bottom: 1.25rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -883,45 +759,14 @@ h2 {
   padding-right: 0.75rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
-}
-
-.pl-1 {
-  padding-left: 0.25rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-orange-600 {
@@ -961,6 +806,693 @@ h2 {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.container {
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: none;
+}
+
+.peaky {
+  background-image: url(./images/peaky3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn {
+  background-image: url(./images/brooklyn.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn p {
+  font-size: 0.5rem;
+}
+
+.popcorn:nth-child(2) {
+  background-image: url(./images/readyplayerone.jpg);
+}
+
+.popcorn:nth-child(3) {
+  background-image: url(./images/moneyheist.jpg);
+}
+
+.popcorn:nth-child(4) {
+  background-image: url(./images/Ash.jpg);
+}
+
+.continue {
+  background-image: url(./images/rednotice.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.continue:nth-child(2) {
+  background-image: url(./images/extraction.jpg);
+}
+
+.continue:nth-child(3) {
+  background-image: url(./images/theadamproject.jpg);
+}
+
+.continue:nth-child(4) {
+  background-image: url(./images/theoldguard.jpg);
+  background-position: top;
+}
+
+progress {
+  background-color: white;
+  -ms-progress-appearance: bar;
+  accent-color: orangered;
+  height: 0.2rem;
+  padding: 0px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: orangered;
+}
+
+progress::-moz-progress-bar {
+  background-color: orangered;
+}
+
+.sidebar {
+  background-image: url(./images/shadowbase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.sidebar:nth-child(2) {
+  background-image: url(./images/nightagent.jpg);
+}
+
+.sidebar:nth-child(3) {
+  background-image: url(./images/thewithcer.jpg);
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: dimgray;
+  width: 60%;
+  height: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: none;
+}
+
+.peaky {
+  background-image: url(./images/peaky3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn {
+  background-image: url(./images/brooklyn.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn p {
+  font-size: 0.5rem;
+}
+
+.popcorn:nth-child(2) {
+  background-image: url(./images/readyplayerone.jpg);
+}
+
+.popcorn:nth-child(3) {
+  background-image: url(./images/moneyheist.jpg);
+}
+
+.popcorn:nth-child(4) {
+  background-image: url(./images/Ash.jpg);
+}
+
+.continue {
+  background-image: url(./images/rednotice.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.continue:nth-child(2) {
+  background-image: url(./images/extraction.jpg);
+}
+
+.continue:nth-child(3) {
+  background-image: url(./images/theadamproject.jpg);
+}
+
+.continue:nth-child(4) {
+  background-image: url(./images/theoldguard.jpg);
+  background-position: top;
+}
+
+progress {
+  background-color: white;
+  -ms-progress-appearance: bar;
+  accent-color: orangered;
+  height: 0.2rem;
+  padding: 0px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: orangered;
+}
+
+progress::-moz-progress-bar {
+  background-color: orangered;
+}
+
+.sidebar {
+  background-image: url(./images/shadowbase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.sidebar:nth-child(2) {
+  background-image: url(./images/nightagent.jpg);
+}
+
+.sidebar:nth-child(3) {
+  background-image: url(./images/thewithcer.jpg);
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: dimgray;
+  width: 60%;
+  height: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: none;
+}
+
+.peaky {
+  background-image: url(./images/peaky3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn {
+  background-image: url(./images/brooklyn.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn p {
+  font-size: 0.5rem;
+}
+
+.popcorn:nth-child(2) {
+  background-image: url(./images/readyplayerone.jpg);
+}
+
+.popcorn:nth-child(3) {
+  background-image: url(./images/moneyheist.jpg);
+}
+
+.popcorn:nth-child(4) {
+  background-image: url(./images/Ash.jpg);
+}
+
+.continue {
+  background-image: url(./images/rednotice.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.continue:nth-child(2) {
+  background-image: url(./images/extraction.jpg);
+}
+
+.continue:nth-child(3) {
+  background-image: url(./images/theadamproject.jpg);
+}
+
+.continue:nth-child(4) {
+  background-image: url(./images/theoldguard.jpg);
+  background-position: top;
+}
+
+progress {
+  background-color: white;
+  -ms-progress-appearance: bar;
+  accent-color: orangered;
+  height: 0.2rem;
+  padding: 0px;
+  width: 10rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: orangered;
+}
+
+progress::-moz-progress-bar {
+  background-color: orangered;
+}
+
+.sidebar {
+  background-image: url(./images/shadowbase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.sidebar:nth-child(2) {
+  background-image: url(./images/nightagent.jpg);
+}
+
+.sidebar:nth-child(3) {
+  background-image: url(./images/thewithcer.jpg);
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: dimgray;
+  width: 60%;
+  height: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: none;
+}
+
+.peaky {
+  background-image: url(./images/peaky3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn {
+  background-image: url(./images/brooklyn.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn p {
+  font-size: 0.5rem;
+}
+
+.popcorn:nth-child(2) {
+  background-image: url(./images/readyplayerone.jpg);
+}
+
+.popcorn:nth-child(3) {
+  background-image: url(./images/moneyheist.jpg);
+}
+
+.popcorn:nth-child(4) {
+  background-image: url(./images/Ash.jpg);
+}
+
+.continue {
+  background-image: url(./images/rednotice.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.continue:nth-child(2) {
+  background-image: url(./images/extraction.jpg);
+}
+
+.continue:nth-child(3) {
+  background-image: url(./images/theadamproject.jpg);
+}
+
+.continue:nth-child(4) {
+  background-image: url(./images/theoldguard.jpg);
+  background-position: top;
+}
+
+progress {
+  background-color: white;
+  -ms-progress-appearance: bar;
+  accent-color: orangered;
+  height: 0.2rem;
+  padding: 0px;
+  width: 5rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: orangered;
+}
+
+progress::-moz-progress-bar {
+  background-color: orangered;
+}
+
+.sidebar {
+  background-image: url(./images/shadowbase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.sidebar:nth-child(2) {
+  background-image: url(./images/nightagent.jpg);
+}
+
+.sidebar:nth-child(3) {
+  background-image: url(./images/thewithcer.jpg);
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: dimgray;
+  width: 60%;
+  height: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: none;
+}
+
+.peaky {
+  background-image: url(./images/peaky3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn {
+  background-image: url(./images/brooklyn.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn p {
+  font-size: 0.5rem;
+}
+
+.popcorn:nth-child(2) {
+  background-image: url(./images/readyplayerone.jpg);
+}
+
+.popcorn:nth-child(3) {
+  background-image: url(./images/moneyheist.jpg);
+}
+
+.popcorn:nth-child(4) {
+  background-image: url(./images/Ash.jpg);
+}
+
+.continue {
+  background-image: url(./images/rednotice.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.continue:nth-child(2) {
+  background-image: url(./images/extraction.jpg);
+}
+
+.continue:nth-child(3) {
+  background-image: url(./images/theadamproject.jpg);
+}
+
+.continue:nth-child(4) {
+  background-image: url(./images/theoldguard.jpg);
+  background-position: top;
+}
+
+progress {
+  background-color: white;
+  -ms-progress-appearance: bar;
+  accent-color: orangered;
+  height: 0.2rem;
+  padding: 0px;
+  width: 10rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: orangered;
+}
+
+progress::-moz-progress-bar {
+  background-color: orangered;
+}
+
+.sidebar {
+  background-image: url(./images/shadowbase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.sidebar:nth-child(2) {
+  background-image: url(./images/nightagent.jpg);
+}
+
+.sidebar:nth-child(3) {
+  background-image: url(./images/thewithcer.jpg);
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: dimgray;
+  width: 60%;
+  height: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: none;
+}
+
+.peaky {
+  background-image: url(./images/peaky3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn {
+  background-image: url(./images/brooklyn.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popcorn p {
+  font-size: 0.5rem;
+}
+
+.popcorn:nth-child(2) {
+  background-image: url(./images/readyplayerone.jpg);
+}
+
+.popcorn:nth-child(3) {
+  background-image: url(./images/moneyheist.jpg);
+}
+
+.popcorn:nth-child(4) {
+  background-image: url(./images/Ash.jpg);
+}
+
+.continue {
+  background-image: url(./images/rednotice.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.continue:nth-child(2) {
+  background-image: url(./images/extraction.jpg);
+}
+
+.continue:nth-child(3) {
+  background-image: url(./images/theadamproject.jpg);
+}
+
+.continue:nth-child(4) {
+  background-image: url(./images/theoldguard.jpg);
+  background-position: top;
+}
+
+progress {
+  background-color: white;
+  -ms-progress-appearance: bar;
+  accent-color: orangered;
+  height: 0.2rem;
+  padding: 0px;
+  width: 10rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: orangered;
+}
+
+progress::-moz-progress-bar {
+  background-color: orangered;
+}
+
+.sidebar {
+  background-image: url(./images/shadowbase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.sidebar:nth-child(2) {
+  background-image: url(./images/nightagent.jpg);
+}
+
+.sidebar:nth-child(3) {
+  background-image: url(./images/thewithcer.jpg);
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: dimgray;
+  width: 60%;
+  height: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+} 
 .container {
   background-color: gray;
   background-position: center;
@@ -1024,23 +1556,20 @@ progress {
   -ms-progress-appearance: bar;
   accent-color: orangered;
   height: 0.2rem;
-  border-radius: 2rem;
   padding: 0px;
+  width: 15rem;
 }
 
 progress::-webkit-progress-bar {
   background-color: white;
-  border-radius: 2rem;
 }
 
 progress::-webkit-progress-value {
   background-color: orangered;
-  border-radius: 2rem;
 }
 
 progress::-moz-progress-bar {
   background-color: orangered;
-  border-radius: 2rem;
 }
 
 .sidebar {
